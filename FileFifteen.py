@@ -1,16 +1,16 @@
 # Enter a number
-# find difference between biggest and smallest digits
+# find  difference  between biggest and smallest digits
 
 number_count = 0
 while number_count < 1:
-    number_str = input("Enter our number please")
+    number_str = input("Enter the  number please")
     try:
         number = int(number_str)
     except ValueError:
-        print(" not a valid number")
+        print("this is  not a valid number")
         continue
     number_count += 1
-    print(f"the number count is equal {number_count}")
+    print(f"the number count is equal to  {number_count}")
 if len(number_str) == 1:
     print("no minimums or maximums, only one digit")
 else:
@@ -25,7 +25,7 @@ else:
     for i in range(1, len(number_list)):
         if number_list[i] <= mini:
             mini = number_list[i]
-    print(f" the minimum is  {mini} ")
+    print(f" the minimum is equal to  {mini} ")
     maxim = int(maxi)
     minim = int(mini)
     print(f" and the difference is equal to { maxim - minim}")
