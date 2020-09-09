@@ -1,5 +1,5 @@
 # Enter a number
-# find difference between biggest and smallest digits
+# find  difference  between biggest and smallest digits
 
 number_count = 0
 while number_count < 1:
