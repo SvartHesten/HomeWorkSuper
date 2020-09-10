@@ -1,12 +1,12 @@
 # Program to compute area of rectangle or triangle
 # Should prompt to which figure  type to compute for
-# area should be positive
+# area should definitely  be positive
 
 height_count = 0
 base_count = 0
 length_count = 0
 while True:
-    message_str = input(" Enter whether rectangle or triangle")
+    message_str = input(" Enter whether rectangle or triangle please ")
     if message_str != "triangle" and message_str != "rectangle":
         print("Enter a valid choice")
         continue

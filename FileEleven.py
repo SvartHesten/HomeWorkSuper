@@ -1,5 +1,5 @@
-# Input 3 numbers a, b, c
-# A is non-zero. Write a program to solve quadratic equations.
+# Input 3 numbers a, b and  c
+# consider that a  is non-zero. Write a program to solve quadratic equations.
 #  may use math pow and sqrt
 
 from math import sqrt
