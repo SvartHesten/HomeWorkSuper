@@ -1,3 +1,4 @@
-All files for simple Python projects
-listed here. 
-Reviewed by my tyrant. 
+All currently done  files.
+They represent extremely simple Python projects
+The only exception is the Info.txt file 
+To be reviewed at some point in time and space by my tyrant. 
