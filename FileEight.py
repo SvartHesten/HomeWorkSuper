@@ -1,11 +1,11 @@
-# Enter three numbers
-# sort them in ascending order
+# Enter just three numbers
+# sort them all  in ascending order
 
 i = 1
 flist = []
 while i < 4:
     try:
-        num = int(input("Enter current number"))
+        num = int(input("Enter the  current number"))
     except ValueError:
         print(" not a valid number")
         continue
