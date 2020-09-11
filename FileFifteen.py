@@ -7,12 +7,12 @@ while number_count < 1:
     try:
         number = int(number_str)
     except ValueError:
-        print(" not a valid number")
+        print(" not  quite a valid number")
         continue
     number_count += 1
-    print(f"the number count is equal {number_count}")
+    print(f"the number count is sure  equal {number_count}")
 if len(number_str) == 1:
-    print("no minimums or maximums, only one digit")
+    print("no minimums or, say,  maximums, only one digit")
 else:
     number_list = list(number_str)
     print(number_list)
@@ -25,7 +25,7 @@ else:
     for i in range(1, len(number_list)):
         if number_list[i] <= mini:
             mini = number_list[i]
-    print(f" the minimum is  {mini} ")
+    print(f" the minimum is equal to  {mini} ")
     maxim = int(maxi)
     minim = int(mini)
     print(f" and the difference is equal to { maxim - minim}")

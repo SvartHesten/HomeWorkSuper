@@ -1,21 +1,21 @@
 # enter three exam scores
-# exam pass score is 40 or greaster
+# exam pass score is equal to  40 or greater
 # at least two exams must be passed
-# the aaverage should be 50 and up
+# the average should be 50 and up
 
 j = 0
 score_list = []
 while True:
     try:
-        score1 = int(input(" Enter first score"))
+        score1 = int(input(" Enter Your first score"))
     except ValueError:
-        print("Ooops, not valid, reenter")
+        print("Ooops, not valid, reenter please ")
         continue
     score_list.append(score1)
     break
 while True:
     try:
-        score2 = int(input(" Enter second score"))
+        score2 = int(input(" Enter second score please"))
     except ValueError:
         print("Ooops, not valid, reenter")
         continue
